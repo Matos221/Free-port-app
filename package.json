@@ -1,0 +1,33 @@
+{
+  "name": "app-node",
+  "version": "0.0.1",
+  "description": "Aplicación para detectar que port de servidor esta disponible",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matos221/Free-port-app.git"
+  },
+  "keywords": [
+    "Node",
+    "port",
+    "servidor",
+    "env"
+  ],
+  "author": "MarcosDevs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matos221/Free-port-app/issues"
+  },
+  "homepage": "https://github.com/Matos221/Free-port-app#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "picocolors": "^1.0.0"
+  }
+}
